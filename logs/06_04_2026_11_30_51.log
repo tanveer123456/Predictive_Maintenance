@@ -1,0 +1,33 @@
+[ 2026-06-04 11:30:51,946 ] 25 root - INFO - Logger initialized successfully
+[ 2026-06-04 11:30:52,086 ] 13 root - INFO - Starting the training pipeline
+[ 2026-06-04 11:30:52,086 ] 15 root - INFO - Entered the data ingestion method
+[ 2026-06-04 11:30:52,101 ] 17 root - INFO - Dataset read successfully into dataframe
+[ 2026-06-04 11:30:52,136 ] 24 root - INFO - Train test split completed
+[ 2026-06-04 11:30:52,169 ] 27 root - INFO - Data ingestion completed successfully
+[ 2026-06-04 11:30:52,169 ] 17 root - INFO - Data ingestion completed successfully
+[ 2026-06-04 11:30:52,169 ] 27 root - INFO - Checking if train and test files exist
+[ 2026-06-04 11:30:52,170 ] 38 root - INFO - Train and test files validated successfully
+[ 2026-06-04 11:30:52,170 ] 45 root - INFO - Checking if datasets are empty
+[ 2026-06-04 11:30:52,207 ] 56 root - INFO - Datasets are not empty
+[ 2026-06-04 11:30:52,207 ] 63 root - INFO - Validating required columns
+[ 2026-06-04 11:30:52,217 ] 77 root - INFO - All required columns are present
+[ 2026-06-04 11:30:52,217 ] 22 root - INFO - Data validation completed successfully
+[ 2026-06-04 11:30:52,217 ] 47 root - INFO - Reading train and test data
+[ 2026-06-04 11:30:52,231 ] 51 root - INFO - Read train and test data completed
+[ 2026-06-04 11:30:52,231 ] 52 root - INFO - Obtaining preprocessor object
+[ 2026-06-04 11:30:52,231 ] 40 root - INFO - Preprocessor object created successfully
+[ 2026-06-04 11:30:52,232 ] 60 root - INFO - Applying preprocessor object on training and testing data
+[ 2026-06-04 11:30:52,263 ] 65 root - INFO - Saved preprocessor object
+[ 2026-06-04 11:30:52,264 ] 15 root - INFO - Object saved successfully
+[ 2026-06-04 11:30:52,264 ] 31 root - INFO - Data transformation completed successfully
+[ 2026-06-04 11:30:52,264 ] 29 root - INFO - Splitting training and testing input data
+[ 2026-06-04 11:30:55,573 ] 95 root - INFO - Logistic Regression Best Params: {'solver': 'liblinear', 'class_weight': 'balanced', 'C': 1}
+[ 2026-06-04 11:30:55,573 ] 99 root - INFO - Logistic Regression Recall Score: 0.8524590163934426
+[ 2026-06-04 11:30:55,852 ] 95 root - INFO - Decision Tree Best Params: {'min_samples_split': 2, 'max_depth': 3, 'criterion': 'entropy', 'class_weight': 'balanced'}
+[ 2026-06-04 11:30:55,852 ] 99 root - INFO - Decision Tree Recall Score: 0.7213114754098361
+[ 2026-06-04 11:31:02,860 ] 95 root - INFO - Random Forest Best Params: {'n_estimators': 300, 'min_samples_split': 10, 'max_depth': 5, 'class_weight': 'balanced'}
+[ 2026-06-04 11:31:02,861 ] 99 root - INFO - Random Forest Recall Score: 0.9344262295081968
+[ 2026-06-04 11:31:19,375 ] 95 root - INFO - Gradient Boosting Best Params: {'n_estimators': 200, 'max_depth': 7, 'learning_rate': 0.05}
+[ 2026-06-04 11:31:19,375 ] 99 root - INFO - Gradient Boosting Recall Score: 0.639344262295082
+[ 2026-06-04 11:31:24,522 ] 95 root - INFO - AdaBoost Best Params: {'n_estimators': 200, 'learning_rate': 1.0}
+[ 2026-06-04 11:31:24,522 ] 99 root - INFO - AdaBoost Recall Score: 0.4426229508196721

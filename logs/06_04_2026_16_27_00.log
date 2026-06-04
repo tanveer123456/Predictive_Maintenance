@@ -1,0 +1,4 @@
+[ 2026-06-04 16:27:00,306 ] 25 root - INFO - Logger initialized successfully
+[ 2026-06-04 16:27:01,791 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-06-04 16:27:01,795 ] 97 werkzeug - INFO -  * Debugger PIN: 494-674-262
+[ 2026-06-04 16:37:08,292 ] 97 werkzeug - INFO -  * Detected change in 'D:\\Python 2026\\Machine Learning Mini Project\\PredictiveMaintenance\\application.py', reloading

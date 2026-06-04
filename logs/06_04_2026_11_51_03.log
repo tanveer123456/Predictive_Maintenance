@@ -1,0 +1,39 @@
+[ 2026-06-04 11:51:03,969 ] 25 root - INFO - Logger initialized successfully
+[ 2026-06-04 11:51:04,086 ] 13 root - INFO - Starting the training pipeline
+[ 2026-06-04 11:51:04,086 ] 15 root - INFO - Entered the data ingestion method
+[ 2026-06-04 11:51:04,101 ] 17 root - INFO - Dataset read successfully into dataframe
+[ 2026-06-04 11:51:04,135 ] 24 root - INFO - Train test split completed
+[ 2026-06-04 11:51:04,167 ] 27 root - INFO - Data ingestion completed successfully
+[ 2026-06-04 11:51:04,167 ] 17 root - INFO - Data ingestion completed successfully
+[ 2026-06-04 11:51:04,168 ] 27 root - INFO - Checking if train and test files exist
+[ 2026-06-04 11:51:04,168 ] 38 root - INFO - Train and test files validated successfully
+[ 2026-06-04 11:51:04,168 ] 45 root - INFO - Checking if datasets are empty
+[ 2026-06-04 11:51:04,206 ] 56 root - INFO - Datasets are not empty
+[ 2026-06-04 11:51:04,207 ] 63 root - INFO - Validating required columns
+[ 2026-06-04 11:51:04,217 ] 77 root - INFO - All required columns are present
+[ 2026-06-04 11:51:04,217 ] 22 root - INFO - Data validation completed successfully
+[ 2026-06-04 11:51:04,217 ] 47 root - INFO - Reading train and test data
+[ 2026-06-04 11:51:04,231 ] 51 root - INFO - Read train and test data completed
+[ 2026-06-04 11:51:04,231 ] 52 root - INFO - Obtaining preprocessor object
+[ 2026-06-04 11:51:04,231 ] 40 root - INFO - Preprocessor object created successfully
+[ 2026-06-04 11:51:04,232 ] 60 root - INFO - Applying preprocessor object on training and testing data
+[ 2026-06-04 11:51:04,262 ] 65 root - INFO - Saved preprocessor object
+[ 2026-06-04 11:51:04,262 ] 15 root - INFO - Object saved successfully
+[ 2026-06-04 11:51:04,263 ] 31 root - INFO - Data transformation completed successfully
+[ 2026-06-04 11:51:04,263 ] 23 root - INFO - Splitting training and testing data
+[ 2026-06-04 11:51:07,594 ] 98 root - INFO - Logistic Regression Best Params: {'solver': 'liblinear', 'class_weight': 'balanced', 'C': 1}
+[ 2026-06-04 11:51:07,595 ] 102 root - INFO - Logistic Regression Recall Score: 0.8524590163934426
+[ 2026-06-04 11:51:07,810 ] 98 root - INFO - Decision Tree Best Params: {'min_samples_split': 2, 'max_depth': 3, 'criterion': 'entropy', 'class_weight': 'balanced'}
+[ 2026-06-04 11:51:07,810 ] 102 root - INFO - Decision Tree Recall Score: 0.7213114754098361
+[ 2026-06-04 11:51:14,188 ] 98 root - INFO - Random Forest Best Params: {'n_estimators': 300, 'min_samples_split': 10, 'max_depth': 5, 'class_weight': 'balanced'}
+[ 2026-06-04 11:51:14,188 ] 102 root - INFO - Random Forest Recall Score: 0.9016393442622951
+[ 2026-06-04 11:51:30,237 ] 98 root - INFO - Gradient Boosting Best Params: {'n_estimators': 200, 'max_depth': 7, 'learning_rate': 0.05}
+[ 2026-06-04 11:51:30,237 ] 102 root - INFO - Gradient Boosting Recall Score: 0.6721311475409836
+[ 2026-06-04 11:51:34,849 ] 98 root - INFO - AdaBoost Best Params: {'n_estimators': 200, 'learning_rate': 1.0}
+[ 2026-06-04 11:51:34,849 ] 102 root - INFO - AdaBoost Recall Score: 0.4426229508196721
+[ 2026-06-04 11:51:34,849 ] 48 root - INFO - Model Report: {'Logistic Regression': 0.8524590163934426, 'Decision Tree': 0.7213114754098361, 'Random Forest': 0.9016393442622951, 'Gradient Boosting': 0.6721311475409836, 'AdaBoost': 0.4426229508196721}
+[ 2026-06-04 11:51:34,849 ] 49 root - INFO - Best Parameters: {'Logistic Regression': {'solver': 'liblinear', 'class_weight': 'balanced', 'C': 1}, 'Decision Tree': {'min_samples_split': 2, 'max_depth': 3, 'criterion': 'entropy', 'class_weight': 'balanced'}, 'Random Forest': {'n_estimators': 300, 'min_samples_split': 10, 'max_depth': 5, 'class_weight': 'balanced'}, 'Gradient Boosting': {'n_estimators': 200, 'max_depth': 7, 'learning_rate': 0.05}, 'AdaBoost': {'n_estimators': 200, 'learning_rate': 1.0}}
+[ 2026-06-04 11:51:34,849 ] 59 root - INFO - Best Model: Random Forest with Recall Score: 0.9016393442622951
+[ 2026-06-04 11:51:34,862 ] 15 root - INFO - Object saved successfully
+[ 2026-06-04 11:51:34,862 ] 69 root - INFO - Best model saved successfully
+[ 2026-06-04 11:51:34,863 ] 34 root - INFO - Model training completed successfully with best model score: ('Random Forest', 0.9016393442622951)

@@ -1,0 +1,60 @@
+[ 2026-06-04 12:20:29,506 ] 25 root - INFO - Logger initialized successfully
+[ 2026-06-04 12:20:29,616 ] 13 root - INFO - Starting the training pipeline
+[ 2026-06-04 12:20:29,616 ] 15 root - INFO - Entered the data ingestion method
+[ 2026-06-04 12:20:29,629 ] 17 root - INFO - Dataset read successfully into dataframe
+[ 2026-06-04 12:20:29,662 ] 24 root - INFO - Train test split completed
+[ 2026-06-04 12:20:29,693 ] 27 root - INFO - Data ingestion completed successfully
+[ 2026-06-04 12:20:29,694 ] 17 root - INFO - Data ingestion completed successfully
+[ 2026-06-04 12:20:29,694 ] 27 root - INFO - Checking if train and test files exist
+[ 2026-06-04 12:20:29,694 ] 38 root - INFO - Train and test files validated successfully
+[ 2026-06-04 12:20:29,695 ] 45 root - INFO - Checking if datasets are empty
+[ 2026-06-04 12:20:29,730 ] 56 root - INFO - Datasets are not empty
+[ 2026-06-04 12:20:29,730 ] 63 root - INFO - Validating required columns
+[ 2026-06-04 12:20:29,740 ] 77 root - INFO - All required columns are present
+[ 2026-06-04 12:20:29,740 ] 22 root - INFO - Data validation completed successfully
+[ 2026-06-04 12:20:29,740 ] 47 root - INFO - Reading train and test data
+[ 2026-06-04 12:20:29,753 ] 51 root - INFO - Read train and test data completed
+[ 2026-06-04 12:20:29,753 ] 52 root - INFO - Obtaining preprocessor object
+[ 2026-06-04 12:20:29,753 ] 40 root - INFO - Preprocessor object created successfully
+[ 2026-06-04 12:20:29,754 ] 60 root - INFO - Applying preprocessor object on training and testing data
+[ 2026-06-04 12:20:29,783 ] 65 root - INFO - Saved preprocessor object
+[ 2026-06-04 12:20:29,784 ] 26 root - INFO - Object saved successfully
+[ 2026-06-04 12:20:29,784 ] 31 root - INFO - Data transformation completed successfully
+[ 2026-06-04 12:20:29,784 ] 29 root - INFO - Splitting training and testing data
+[ 2026-06-04 12:20:29,784 ] 96 root - INFO - Starting hyperparameter tuning for Logistic Regression
+[ 2026-06-04 12:20:33,125 ] 150 root - INFO - Logistic Regression Best Params: {'solver': 'liblinear', 'class_weight': 'balanced', 'C': 10}
+[ 2026-06-04 12:20:33,125 ] 154 root - INFO - Logistic Regression Precision: 0.1275
+[ 2026-06-04 12:20:33,125 ] 158 root - INFO - Logistic Regression Recall: 0.8525
+[ 2026-06-04 12:20:33,125 ] 162 root - INFO - Logistic Regression F1 Score: 0.2217
+[ 2026-06-04 12:20:33,125 ] 167 root - INFO - Logistic Regression ROC AUC: 0.9011
+[ 2026-06-04 12:20:33,125 ] 96 root - INFO - Starting hyperparameter tuning for Decision Tree
+[ 2026-06-04 12:20:33,369 ] 150 root - INFO - Decision Tree Best Params: {'min_samples_split': 5, 'max_depth': None, 'criterion': 'entropy', 'class_weight': 'balanced'}
+[ 2026-06-04 12:20:33,369 ] 154 root - INFO - Decision Tree Precision: 0.6406
+[ 2026-06-04 12:20:33,369 ] 158 root - INFO - Decision Tree Recall: 0.6721
+[ 2026-06-04 12:20:33,369 ] 162 root - INFO - Decision Tree F1 Score: 0.6560
+[ 2026-06-04 12:20:33,369 ] 167 root - INFO - Decision Tree ROC AUC: 0.8317
+[ 2026-06-04 12:20:33,369 ] 96 root - INFO - Starting hyperparameter tuning for Random Forest
+[ 2026-06-04 12:20:38,588 ] 150 root - INFO - Random Forest Best Params: {'n_estimators': 200, 'min_samples_split': 5, 'max_depth': None, 'class_weight': 'balanced'}
+[ 2026-06-04 12:20:38,588 ] 154 root - INFO - Random Forest Precision: 0.5479
+[ 2026-06-04 12:20:38,588 ] 158 root - INFO - Random Forest Recall: 0.6557
+[ 2026-06-04 12:20:38,588 ] 162 root - INFO - Random Forest F1 Score: 0.5970
+[ 2026-06-04 12:20:38,588 ] 167 root - INFO - Random Forest ROC AUC: 0.9651
+[ 2026-06-04 12:20:38,588 ] 96 root - INFO - Starting hyperparameter tuning for Gradient Boosting
+[ 2026-06-04 12:20:49,074 ] 150 root - INFO - Gradient Boosting Best Params: {'n_estimators': 100, 'max_depth': 7, 'learning_rate': 0.1}
+[ 2026-06-04 12:20:49,074 ] 154 root - INFO - Gradient Boosting Precision: 0.7925
+[ 2026-06-04 12:20:49,074 ] 158 root - INFO - Gradient Boosting Recall: 0.6885
+[ 2026-06-04 12:20:49,074 ] 162 root - INFO - Gradient Boosting F1 Score: 0.7368
+[ 2026-06-04 12:20:49,074 ] 167 root - INFO - Gradient Boosting ROC AUC: 0.9700
+[ 2026-06-04 12:20:49,074 ] 96 root - INFO - Starting hyperparameter tuning for AdaBoost
+[ 2026-06-04 12:20:53,113 ] 150 root - INFO - AdaBoost Best Params: {'n_estimators': 200, 'learning_rate': 1.0}
+[ 2026-06-04 12:20:53,113 ] 154 root - INFO - AdaBoost Precision: 0.6923
+[ 2026-06-04 12:20:53,113 ] 158 root - INFO - AdaBoost Recall: 0.4426
+[ 2026-06-04 12:20:53,113 ] 162 root - INFO - AdaBoost F1 Score: 0.5400
+[ 2026-06-04 12:20:53,113 ] 167 root - INFO - AdaBoost ROC AUC: 0.9518
+[ 2026-06-04 12:20:53,113 ] 62 root - INFO - Model Report: {'Logistic Regression': {'precision': 0.12745098039215685, 'recall': 0.8524590163934426, 'f1_score': 0.22174840085287847, 'roc_auc': 0.9011320690908783}, 'Decision Tree': {'precision': 0.640625, 'recall': 0.6721311475409836, 'f1_score': 0.656, 'roc_auc': 0.8317452802272592}, 'Random Forest': {'precision': 0.547945205479452, 'recall': 0.6557377049180327, 'f1_score': 0.5970149253731343, 'roc_auc': 0.9651206046720042}, 'Gradient Boosting': {'precision': 0.7924528301886793, 'recall': 0.6885245901639344, 'f1_score': 0.7368421052631579, 'roc_auc': 0.9700327192485564}, 'AdaBoost': {'precision': 0.6923076923076923, 'recall': 0.4426229508196721, 'f1_score': 0.54, 'roc_auc': 0.9518257678877908}}
+[ 2026-06-04 12:20:53,113 ] 66 root - INFO - Best Parameters: {'Logistic Regression': {'solver': 'liblinear', 'class_weight': 'balanced', 'C': 10}, 'Decision Tree': {'min_samples_split': 5, 'max_depth': None, 'criterion': 'entropy', 'class_weight': 'balanced'}, 'Random Forest': {'n_estimators': 200, 'min_samples_split': 5, 'max_depth': None, 'class_weight': 'balanced'}, 'Gradient Boosting': {'n_estimators': 100, 'max_depth': 7, 'learning_rate': 0.1}, 'AdaBoost': {'n_estimators': 200, 'learning_rate': 1.0}}
+[ 2026-06-04 12:20:53,114 ] 87 root - INFO - Best Model: Gradient Boosting
+[ 2026-06-04 12:20:53,114 ] 91 root - INFO - Best F1 Score: 0.8534374122558571
+[ 2026-06-04 12:20:53,117 ] 26 root - INFO - Object saved successfully
+[ 2026-06-04 12:20:53,117 ] 100 root - INFO - Best model saved successfully
+[ 2026-06-04 12:20:53,118 ] 34 root - INFO - Model training completed successfully with best model score: ('Gradient Boosting', 0.8534374122558571)

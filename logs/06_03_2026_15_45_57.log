@@ -1,0 +1,5 @@
+[ 2026-06-03 15:45:57,274 ] 25 root - INFO - Logger initialized successfully
+[ 2026-06-03 15:45:57,299 ] 13 root - INFO - Entered the data ingestion method
+[ 2026-06-03 15:45:57,333 ] 15 root - INFO - Entered the data ingestion method
+[ 2026-06-03 15:45:57,367 ] 22 root - INFO - Train test split completed
+[ 2026-06-03 15:45:57,397 ] 25 root - INFO - Data ingestion completed successfully

@@ -1,0 +1,7 @@
+[ 2026-06-04 17:49:47,183 ] 25 root - INFO - Logger initialized successfully
+[ 2026-06-04 17:49:48,325 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-06-04 17:49:48,328 ] 97 werkzeug - INFO -  * Debugger PIN: 494-674-262
+[ 2026-06-04 17:49:52,152 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2026 17:49:52] "GET / HTTP/1.1" 200 -
+[ 2026-06-04 17:50:15,949 ] 38 root - INFO - Object loaded successfully
+[ 2026-06-04 17:50:15,949 ] 38 root - INFO - Object loaded successfully
+[ 2026-06-04 17:50:15,976 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2026 17:50:15] "POST /predict HTTP/1.1" 200 -

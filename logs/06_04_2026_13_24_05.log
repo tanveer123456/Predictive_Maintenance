@@ -1,0 +1,11 @@
+[ 2026-06-04 13:24:05,101 ] 25 root - INFO - Logger initialized successfully
+[ 2026-06-04 13:24:06,276 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-06-04 13:24:06,279 ] 97 werkzeug - INFO -  * Debugger PIN: 494-674-262
+[ 2026-06-04 13:24:18,324 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2026 13:24:18] "GET / HTTP/1.1" 200 -
+[ 2026-06-04 13:25:50,017 ] 10 root - INFO - Loading model and preprocessor for prediction
+[ 2026-06-04 13:25:50,232 ] 38 root - INFO - Object loaded successfully
+[ 2026-06-04 13:25:50,233 ] 38 root - INFO - Object loaded successfully
+[ 2026-06-04 13:25:50,233 ] 19 root - INFO - Model and preprocessor loaded successfully
+[ 2026-06-04 13:25:50,275 ] 21 root - INFO - Generating prediction
+[ 2026-06-04 13:25:50,300 ] 23 root - INFO - Prediction completed successfully
+[ 2026-06-04 13:25:50,302 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2026 13:25:50] "POST /predict HTTP/1.1" 200 -

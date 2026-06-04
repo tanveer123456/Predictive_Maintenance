@@ -1,0 +1,5 @@
+[ 2026-06-03 15:46:41,554 ] 25 root - INFO - Logger initialized successfully
+[ 2026-06-03 15:46:41,554 ] 13 root - INFO - Entered the data ingestion method
+[ 2026-06-03 15:46:41,567 ] 15 root - INFO - Dataset read successfully into dataframe
+[ 2026-06-03 15:46:41,603 ] 22 root - INFO - Train test split completed
+[ 2026-06-03 15:46:41,633 ] 25 root - INFO - Data ingestion completed successfully

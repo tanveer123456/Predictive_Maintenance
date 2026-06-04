@@ -1,0 +1,9 @@
+[ 2026-06-04 13:58:59,433 ] 25 root - INFO - Logger initialized successfully
+[ 2026-06-04 13:59:01,010 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-06-04 13:59:01,013 ] 97 werkzeug - INFO -  * Debugger PIN: 494-674-262
+[ 2026-06-04 13:59:26,423 ] 97 werkzeug - INFO - 192.168.1.5 - - [04/Jun/2026 13:59:26] "GET / HTTP/1.1" 200 -
+[ 2026-06-04 13:59:53,096 ] 97 werkzeug - INFO - 192.168.1.5 - - [04/Jun/2026 13:59:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2026-06-04 13:59:53,249 ] 97 werkzeug - INFO - 192.168.1.5 - - [04/Jun/2026 13:59:53] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2026-06-04 13:59:53,284 ] 97 werkzeug - INFO - 192.168.1.5 - - [04/Jun/2026 13:59:53] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2026-06-04 13:59:53,368 ] 97 werkzeug - INFO - 192.168.1.5 - - [04/Jun/2026 13:59:53] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2026-06-04 14:01:13,891 ] 97 werkzeug - INFO -  * Detected change in 'D:\\Python 2026\\Machine Learning Mini Project\\PredictiveMaintenance\\src\\pipeline\\prediction_pipeline.py', reloading

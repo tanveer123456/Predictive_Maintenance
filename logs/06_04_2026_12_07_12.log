@@ -1,0 +1,55 @@
+[ 2026-06-04 12:07:12,729 ] 25 root - INFO - Logger initialized successfully
+[ 2026-06-04 12:07:12,863 ] 13 root - INFO - Starting the training pipeline
+[ 2026-06-04 12:07:12,863 ] 15 root - INFO - Entered the data ingestion method
+[ 2026-06-04 12:07:12,881 ] 17 root - INFO - Dataset read successfully into dataframe
+[ 2026-06-04 12:07:12,915 ] 24 root - INFO - Train test split completed
+[ 2026-06-04 12:07:12,945 ] 27 root - INFO - Data ingestion completed successfully
+[ 2026-06-04 12:07:12,946 ] 17 root - INFO - Data ingestion completed successfully
+[ 2026-06-04 12:07:12,946 ] 27 root - INFO - Checking if train and test files exist
+[ 2026-06-04 12:07:12,946 ] 38 root - INFO - Train and test files validated successfully
+[ 2026-06-04 12:07:12,946 ] 45 root - INFO - Checking if datasets are empty
+[ 2026-06-04 12:07:12,981 ] 56 root - INFO - Datasets are not empty
+[ 2026-06-04 12:07:12,981 ] 63 root - INFO - Validating required columns
+[ 2026-06-04 12:07:12,991 ] 77 root - INFO - All required columns are present
+[ 2026-06-04 12:07:12,992 ] 22 root - INFO - Data validation completed successfully
+[ 2026-06-04 12:07:12,992 ] 47 root - INFO - Reading train and test data
+[ 2026-06-04 12:07:13,005 ] 51 root - INFO - Read train and test data completed
+[ 2026-06-04 12:07:13,005 ] 52 root - INFO - Obtaining preprocessor object
+[ 2026-06-04 12:07:13,005 ] 40 root - INFO - Preprocessor object created successfully
+[ 2026-06-04 12:07:13,006 ] 60 root - INFO - Applying preprocessor object on training and testing data
+[ 2026-06-04 12:07:13,034 ] 65 root - INFO - Saved preprocessor object
+[ 2026-06-04 12:07:13,035 ] 26 root - INFO - Object saved successfully
+[ 2026-06-04 12:07:13,035 ] 31 root - INFO - Data transformation completed successfully
+[ 2026-06-04 12:07:13,035 ] 29 root - INFO - Splitting training and testing data
+[ 2026-06-04 12:07:13,035 ] 96 root - INFO - Starting hyperparameter tuning for Logistic Regression
+[ 2026-06-04 12:07:17,485 ] 144 root - INFO - Logistic Regression Best Params: {'solver': 'liblinear', 'class_weight': 'balanced', 'C': 10}
+[ 2026-06-04 12:07:17,486 ] 148 root - INFO - Logistic Regression Precision: 0.1275
+[ 2026-06-04 12:07:17,486 ] 152 root - INFO - Logistic Regression Recall: 0.8525
+[ 2026-06-04 12:07:17,486 ] 156 root - INFO - Logistic Regression F1 Score: 0.2217
+[ 2026-06-04 12:07:17,486 ] 96 root - INFO - Starting hyperparameter tuning for Decision Tree
+[ 2026-06-04 12:07:17,905 ] 144 root - INFO - Decision Tree Best Params: {'min_samples_split': 2, 'max_depth': None, 'criterion': 'entropy', 'class_weight': 'balanced'}
+[ 2026-06-04 12:07:17,905 ] 148 root - INFO - Decision Tree Precision: 0.7308
+[ 2026-06-04 12:07:17,905 ] 152 root - INFO - Decision Tree Recall: 0.6230
+[ 2026-06-04 12:07:17,905 ] 156 root - INFO - Decision Tree F1 Score: 0.6726
+[ 2026-06-04 12:07:17,905 ] 96 root - INFO - Starting hyperparameter tuning for Random Forest
+[ 2026-06-04 12:07:23,458 ] 144 root - INFO - Random Forest Best Params: {'n_estimators': 100, 'min_samples_split': 5, 'max_depth': None, 'class_weight': 'balanced'}
+[ 2026-06-04 12:07:23,458 ] 148 root - INFO - Random Forest Precision: 0.5263
+[ 2026-06-04 12:07:23,458 ] 152 root - INFO - Random Forest Recall: 0.6557
+[ 2026-06-04 12:07:23,458 ] 156 root - INFO - Random Forest F1 Score: 0.5839
+[ 2026-06-04 12:07:23,458 ] 96 root - INFO - Starting hyperparameter tuning for Gradient Boosting
+[ 2026-06-04 12:07:37,032 ] 144 root - INFO - Gradient Boosting Best Params: {'n_estimators': 300, 'max_depth': 7, 'learning_rate': 0.05}
+[ 2026-06-04 12:07:37,032 ] 148 root - INFO - Gradient Boosting Precision: 0.7647
+[ 2026-06-04 12:07:37,032 ] 152 root - INFO - Gradient Boosting Recall: 0.6393
+[ 2026-06-04 12:07:37,032 ] 156 root - INFO - Gradient Boosting F1 Score: 0.6964
+[ 2026-06-04 12:07:37,032 ] 96 root - INFO - Starting hyperparameter tuning for AdaBoost
+[ 2026-06-04 12:07:40,946 ] 144 root - INFO - AdaBoost Best Params: {'n_estimators': 200, 'learning_rate': 1.0}
+[ 2026-06-04 12:07:40,946 ] 148 root - INFO - AdaBoost Precision: 0.6923
+[ 2026-06-04 12:07:40,946 ] 152 root - INFO - AdaBoost Recall: 0.4426
+[ 2026-06-04 12:07:40,947 ] 156 root - INFO - AdaBoost F1 Score: 0.5400
+[ 2026-06-04 12:07:40,947 ] 62 root - INFO - Model Report: {'Logistic Regression': {'precision': 0.12745098039215685, 'recall': 0.8524590163934426, 'f1_score': 0.22174840085287847}, 'Decision Tree': {'precision': 0.7307692307692307, 'recall': 0.6229508196721312, 'f1_score': 0.672566371681416}, 'Random Forest': {'precision': 0.5263157894736842, 'recall': 0.6557377049180327, 'f1_score': 0.583941605839416}, 'Gradient Boosting': {'precision': 0.7647058823529411, 'recall': 0.639344262295082, 'f1_score': 0.6964285714285714}, 'AdaBoost': {'precision': 0.6923076923076923, 'recall': 0.4426229508196721, 'f1_score': 0.54}}
+[ 2026-06-04 12:07:40,947 ] 66 root - INFO - Best Parameters: {'Logistic Regression': {'solver': 'liblinear', 'class_weight': 'balanced', 'C': 10}, 'Decision Tree': {'min_samples_split': 2, 'max_depth': None, 'criterion': 'entropy', 'class_weight': 'balanced'}, 'Random Forest': {'n_estimators': 100, 'min_samples_split': 5, 'max_depth': None, 'class_weight': 'balanced'}, 'Gradient Boosting': {'n_estimators': 300, 'max_depth': 7, 'learning_rate': 0.05}, 'AdaBoost': {'n_estimators': 200, 'learning_rate': 1.0}}
+[ 2026-06-04 12:07:40,947 ] 83 root - INFO - Best Model: Gradient Boosting
+[ 2026-06-04 12:07:40,947 ] 87 root - INFO - Best F1 Score: 0.6964285714285714
+[ 2026-06-04 12:07:40,960 ] 26 root - INFO - Object saved successfully
+[ 2026-06-04 12:07:40,960 ] 96 root - INFO - Best model saved successfully
+[ 2026-06-04 12:07:40,962 ] 34 root - INFO - Model training completed successfully with best model score: ('Gradient Boosting', 0.6964285714285714)

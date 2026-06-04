@@ -1,0 +1,6 @@
+[ 2026-06-04 16:03:50,695 ] 25 root - INFO - Logger initialized successfully
+[ 2026-06-04 16:03:51,759 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-06-04 16:03:51,761 ] 97 werkzeug - INFO -  * Debugger PIN: 494-674-262
+[ 2026-06-04 16:04:04,146 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2026 16:04:04] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-06-04 16:04:08,327 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2026 16:04:08] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-06-04 16:09:20,570 ] 97 werkzeug - INFO -  * Detected change in 'D:\\Python 2026\\Machine Learning Mini Project\\PredictiveMaintenance\\application.py', reloading

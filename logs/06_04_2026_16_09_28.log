@@ -1,0 +1,9 @@
+[ 2026-06-04 16:09:28,207 ] 25 root - INFO - Logger initialized successfully
+[ 2026-06-04 16:09:29,400 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+[ 2026-06-04 16:09:29,400 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2026-06-04 16:09:29,402 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2026-06-04 16:26:58,954 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2026-06-04 16:37:08,631 ] 97 werkzeug - INFO -  * Restarting with stat

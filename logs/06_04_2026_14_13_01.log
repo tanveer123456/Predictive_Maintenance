@@ -1,0 +1,14 @@
+[ 2026-06-04 14:13:01,891 ] 25 root - INFO - Logger initialized successfully
+[ 2026-06-04 14:13:02,871 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-06-04 14:13:02,873 ] 97 werkzeug - INFO -  * Debugger PIN: 494-674-262
+[ 2026-06-04 14:13:08,954 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2026 14:13:08] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+[ 2026-06-04 14:13:15,438 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2026 14:13:15] "GET / HTTP/1.1" 200 -
+[ 2026-06-04 14:13:38,895 ] 38 root - INFO - Object loaded successfully
+[ 2026-06-04 14:13:38,897 ] 38 root - INFO - Object loaded successfully
+[ 2026-06-04 14:13:38,933 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2026 14:13:38] "POST /predict HTTP/1.1" 200 -
+[ 2026-06-04 15:26:27,914 ] 97 werkzeug - INFO - 192.168.1.5 - - [04/Jun/2026 15:26:27] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+[ 2026-06-04 15:26:33,151 ] 97 werkzeug - INFO - 192.168.1.5 - - [04/Jun/2026 15:26:33] "GET / HTTP/1.1" 200 -
+[ 2026-06-04 15:27:29,425 ] 38 root - INFO - Object loaded successfully
+[ 2026-06-04 15:27:29,426 ] 38 root - INFO - Object loaded successfully
+[ 2026-06-04 15:27:29,433 ] 97 werkzeug - INFO - 192.168.1.5 - - [04/Jun/2026 15:27:29] "POST /predict HTTP/1.1" 200 -
+[ 2026-06-04 15:35:03,372 ] 97 werkzeug - INFO -  * Detected change in 'D:\\Python 2026\\Machine Learning Mini Project\\PredictiveMaintenance\\application.py', reloading

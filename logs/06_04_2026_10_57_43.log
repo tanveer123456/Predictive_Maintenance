@@ -1,0 +1,18 @@
+[ 2026-06-04 10:57:43,025 ] 25 root - INFO - Logger initialized successfully
+[ 2026-06-04 10:57:43,681 ] 13 root - INFO - Starting the training pipeline
+[ 2026-06-04 10:57:43,681 ] 15 root - INFO - Entered the data ingestion method
+[ 2026-06-04 10:57:43,698 ] 17 root - INFO - Dataset read successfully into dataframe
+[ 2026-06-04 10:57:43,736 ] 24 root - INFO - Train test split completed
+[ 2026-06-04 10:57:43,772 ] 27 root - INFO - Data ingestion completed successfully
+[ 2026-06-04 10:57:43,772 ] 17 root - INFO - Data ingestion completed successfully
+[ 2026-06-04 10:57:43,772 ] 27 root - INFO - Checking if train and test files exist
+[ 2026-06-04 10:57:43,773 ] 38 root - INFO - Train and test files validated successfully
+[ 2026-06-04 10:57:43,773 ] 45 root - INFO - Checking if datasets are empty
+[ 2026-06-04 10:57:43,812 ] 56 root - INFO - Datasets are not empty
+[ 2026-06-04 10:57:43,812 ] 63 root - INFO - Validating required columns
+[ 2026-06-04 10:57:43,822 ] 77 root - INFO - All required columns are present
+[ 2026-06-04 10:57:43,822 ] 22 root - INFO - Data validation completed successfully
+[ 2026-06-04 10:57:43,822 ] 48 root - INFO - Reading train and test data
+[ 2026-06-04 10:57:43,838 ] 52 root - INFO - Read train and test data completed
+[ 2026-06-04 10:57:43,838 ] 53 root - INFO - Obtaining preprocessor object
+[ 2026-06-04 10:57:43,838 ] 41 root - INFO - Preprocessor object created successfully

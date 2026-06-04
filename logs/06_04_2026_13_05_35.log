@@ -1,0 +1,7 @@
+[ 2026-06-04 13:05:35,795 ] 25 root - INFO - Logger initialized successfully
+[ 2026-06-04 13:05:36,919 ] 10 root - INFO - Loading model and preprocessor for prediction
+[ 2026-06-04 13:05:37,189 ] 38 root - INFO - Object loaded successfully
+[ 2026-06-04 13:05:37,190 ] 38 root - INFO - Object loaded successfully
+[ 2026-06-04 13:05:37,190 ] 19 root - INFO - Model and preprocessor loaded successfully
+[ 2026-06-04 13:05:37,222 ] 21 root - INFO - Generating prediction
+[ 2026-06-04 13:05:37,223 ] 23 root - INFO - Prediction completed successfully

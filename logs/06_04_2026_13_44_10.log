@@ -1,0 +1,19 @@
+[ 2026-06-04 13:44:10,701 ] 25 root - INFO - Logger initialized successfully
+[ 2026-06-04 13:44:11,741 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-06-04 13:44:11,744 ] 97 werkzeug - INFO -  * Debugger PIN: 494-674-262
+[ 2026-06-04 13:44:18,967 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2026 13:44:18] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+[ 2026-06-04 13:44:24,956 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2026 13:44:24] "GET / HTTP/1.1" 200 -
+[ 2026-06-04 13:44:48,352 ] 10 root - INFO - Loading model and preprocessor for prediction
+[ 2026-06-04 13:44:48,576 ] 38 root - INFO - Object loaded successfully
+[ 2026-06-04 13:44:48,577 ] 38 root - INFO - Object loaded successfully
+[ 2026-06-04 13:44:48,584 ] 19 root - INFO - Model and preprocessor loaded successfully
+[ 2026-06-04 13:44:48,620 ] 21 root - INFO - Generating prediction
+[ 2026-06-04 13:44:48,621 ] 23 root - INFO - Prediction completed successfully
+[ 2026-06-04 13:44:48,622 ] 10 root - INFO - Loading model and preprocessor for prediction
+[ 2026-06-04 13:44:48,632 ] 38 root - INFO - Object loaded successfully
+[ 2026-06-04 13:44:48,633 ] 38 root - INFO - Object loaded successfully
+[ 2026-06-04 13:44:48,633 ] 19 root - INFO - Model and preprocessor loaded successfully
+[ 2026-06-04 13:44:48,638 ] 21 root - INFO - Generating prediction
+[ 2026-06-04 13:44:48,639 ] 23 root - INFO - Prediction completed successfully
+[ 2026-06-04 13:44:48,641 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2026 13:44:48] "POST /predict HTTP/1.1" 200 -
+[ 2026-06-04 13:51:12,049 ] 97 werkzeug - INFO -  * Detected change in 'D:\\Python 2026\\Machine Learning Mini Project\\PredictiveMaintenance\\src\\pipeline\\prediction_pipeline.py', reloading

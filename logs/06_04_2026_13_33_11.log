@@ -1,0 +1,5 @@
+[ 2026-06-04 13:33:11,219 ] 25 root - INFO - Logger initialized successfully
+[ 2026-06-04 13:33:12,299 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-06-04 13:33:12,301 ] 97 werkzeug - INFO -  * Debugger PIN: 494-674-262
+[ 2026-06-04 13:35:18,534 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2026 13:35:18] "GET / HTTP/1.1" 200 -
+[ 2026-06-04 13:35:18,585 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2026 13:35:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
